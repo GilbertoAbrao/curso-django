@@ -8,3 +8,5 @@ AWS_SECRET_ACCESS_KEY=
 AWS_STORAGE_BUCKET_NAME=
 # Configuracoes para Debug Toolbar
 INTERNAL_IPS=127.0.0.1
+# Configuracao para SENTRY
+SENTRY_DSN=https://ccea19a966084c6080b104bb32e6cc19@o502225.ingest.sentry.io/5584371
