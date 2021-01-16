@@ -44,57 +44,88 @@
                 <h2>
                     Curso de Python com Luciano Ramalho
                 </h2>
-                <p>
-                    Confira em breve mais informações. sobre o curso que será ministrado pelo autro do livro
-                    <a href="http://shop.oreilly.com/product/0636920032519.do" target="_blank">Python Fluente</a>
-                </p>
+
+                <form action="https://gmail.us7.list-manage.com/subscribe/post?u=6d59b9412e27555d419ec3983&amp;id=8a741b7693"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                      class="validate" target="_blank" novalidate>
+                    <div class="form-row align-items-center">
+
+                        <div class="col-auto mt-3">
+                            <label class="sr-only" for="mce-EMAIL">E-mail</label>
+                            <input type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL"
+                                   placeholder="exemplo@seuemail.com">
+                        </div>
+
+                        <div class="col-auto mt-3">
+                            <label class="sr-only" for="mce-FNAME">Name</label>
+                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME"
+                                   placeholder="Seu nome">
+                        </div>
+
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                                  name="b_6d59b9412e27555d419ec3983_8a741b7693"
+                                                                                                  tabindex="-1"
+                                                                                                  value=""></div>
+                        <div class="col-auto mt-3">
+                            <input type="submit" value="Salvar" name="subscribe"
+                                   id="mc-embedded-subscribe" class="btn btn-primary">
+                        </div>
+
+                    </div>
+                </form>
+
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <h5 class="card-header">
-                    Mais detalhes sobre o instrutor
-                </h5>
-                <div class="card-body">
-                    <p class="card-text">
-                        <img src="{% static 'img/luciano-ramalho.jpg' %}" alt="Foto Luciano Ramalho"
-                             class="img-thumbnail float-lg-start mr-3"/>
-                        It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English.
-                    </p>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <h5 class="card-header">
+                        Mais detalhes sobre o instrutor
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <img src="{% static 'img/luciano-ramalho.jpg' %}" alt="Foto Luciano Ramalho"
+                                 class="img-thumbnail float-lg-start mr-3"/>
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page
+                            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                            normal
+                            distribution of letters, as opposed to using 'Content here, content here', making it look
+                            like
+                            readable English.
+                            <a href="http://shop.oreilly.com/product/0636920032519.do" target="_blank">Python
+                                Fluente</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<footer class="main-footer mt-5 pt-4 text-light">
-    <div class="container">
-        <dif class="row">
-            <div class="col">
-                <h3>Entre em Contato</h3>
-                <address>
-                    +1 321-330-5467
-                    <br/>
-                    <a href="mailto:ggafbr@gmail.com" class="text-light">ggafbr@gmail.com</a>
-                </address>
-            </div>
-        </dif>
-    </div>
-    <div class="rights pb-4">
+    <footer class="main-footer mt-5 pt-4 text-light">
         <div class="container">
             <dif class="row">
                 <div class="col">
-                    {% now 'Y' %} Python Pro. Todos direitos reservados
+                    <h3>Entre em Contato</h3>
+                    <address>
+                        +1 321-330-5467
+                        <br/>
+                        <a href="mailto:ggafbr@gmail.com" class="text-light">ggafbr@gmail.com</a>
+                    </address>
                 </div>
             </dif>
         </div>
-    </div>
-</footer>
+        <div class="rights pb-4">
+            <div class="container">
+                <dif class="row">
+                    <div class="col">
+                        {% now 'Y' %} Python Pro. Todos direitos reservados
+                    </div>
+                </dif>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
