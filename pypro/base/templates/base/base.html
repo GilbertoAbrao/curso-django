@@ -55,12 +55,10 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Módulos
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" datatoggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Módulos</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     {% for modulo in MODULOS %}
                         <a class="dropdown-item" href="{{ modulo.get_absolute_url }}">{{ modulo.titulo }}</a>
