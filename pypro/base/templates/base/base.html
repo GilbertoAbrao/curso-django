@@ -40,30 +40,7 @@
 
 {% block body %}{% endblock %}
 
-    <footer class="main-footer mt-5 pt-4 text-light">
-        <div class="container">
-            <dif class="row">
-                <div class="col">
-                    <h3>Entre em Contato</h3>
-                    <address>
-                        +1 321-330-5467
-                        <br/>
-                        <a href="mailto:ggafbr@gmail.com" class="text-light">ggafbr@gmail.com</a>
-                    </address>
-                </div>
-            </dif>
-        </div>
-        <div class="rights pb-4">
-            <div class="container">
-                <dif class="row">
-                    <div class="col">
-                        {% now 'Y' %} Python Pro. Todos direitos reservados
-                    </div>
-                </dif>
-            </div>
-        </div>
-    </footer>
-
+{% include 'base/footer.html' with contato_email='ggafbr@gmail.com' only %}
 
 </body>
 </html>
